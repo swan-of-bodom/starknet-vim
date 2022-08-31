@@ -34,7 +34,7 @@ Ctags regex:
 
 with Vim-Plug:
 
-`Plug '0xhyoga/starkvim'`
+`Plug '0xhyoga/starknet-vim'`
 
 and put this in your .vimrc:
 
