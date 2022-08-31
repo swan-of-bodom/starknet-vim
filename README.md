@@ -42,7 +42,6 @@ and put this in your .vimrc:
 
 For ALE you can install here: https://github.com/dense-analysis/ale
 
-For universal Ctags you can follow here for instructions https://github.com/universal-ctags/ctags and install
-tagbar: https://github.com/preservim/tagbar
+For universal Ctags you can follow here for instructions https://github.com/universal-ctags/ctags 
 
 Depending on your setup, you will need to create a .ctags file with the above regex rules
