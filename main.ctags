@@ -1,0 +1,8 @@
+--langdef=cairo
+--map-cairo=+.cairo
+--mline-regex-cairo=/@event([[:space:]])*([a-z ]+)[[:space:]]*([a-zA-Z]*)\(/\3\4/e,event/{mgroup=0}
+--mline-regex-cairo=/@storage_var([[:space:]]+)func[ \t]+([a-zA-Z0-9_]+)*\(/\2\3/s,storage/{mgroup=0}
+--mline-regex-cairo=/@constructor([[:space:]]+)func*([a-z ]+)*\{/\2\3/c,constructor/{mgroup=0}
+--mline-regex-cairo=/@external([[:space:]]+)func*(.*)\{/\2\3/f,external/{mgroup=0}
+--mline-regex-cairo=/@view([[:space:]]+)func*(.*)\{/\2\3/v,view/{mgroup=0}
+--mline-regex-cairo=/(error_message+)\("*(.*)*\"/\2\3/r,error/{mgroup=0}
