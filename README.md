@@ -1,3 +1,7 @@
+> :warning: Deprecated since Cairo 1. Now using <a href="https://github.com/swan-of-bodom/scarb-vim">Scarb Vim</a>.
+
+
+
 # Starknet Vim
 
 Updated Vim plugin to write Cairo contracts on Starknet.
