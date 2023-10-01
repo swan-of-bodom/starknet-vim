@@ -1,4 +1,4 @@
-> :warning: Deprecated since Cairo 1. Now using <a href="https://github.com/swan-of-bodom/scarb-vim">Scarb Vim</a>.
+> :warning: Deprecated since the release of Cairo 1. Now using <a href="https://github.com/swan-of-bodom/scarb-vim">Scarb Vim</a>.
 
 
 
